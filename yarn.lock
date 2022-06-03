@@ -16,12 +16,12 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/core@^8.2.14":
-  version "8.2.14"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-8.2.14.tgz#35566f5b19480369229477e7e0e0fde740bd5204"
-  integrity sha512-zeePkigi+hPh3rN7yoNENG/YUBUsIvUXdxx+AZq+QPaFeKEA2FBSrKn36ojHFrdJUjKzl0lPMEiGC2b6a6bo6g==
+"@angular/core@^11.0.5":
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.0.5.tgz#b8c448c3cd4f6dae7327cc1ba4ee2aa29c8dbc26"
+  integrity sha512-XAXWQi7R3ucZXQwx9QK5jSKJeQyRJ53u2dQDpr7R5stzeCy1a5hrNOkZLg9zOTTPcth/6+FrOrRZP9SMdxtw3w==
   dependencies:
-    tslib "^1.9.0"
+    tslib "^2.0.0"
 
 "@angular/platform-browser-dynamic@^8.2.14":
   version "8.2.14"
@@ -5306,10 +5306,10 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-dom@^16.12.0:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
-  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+react-dom@^16.13.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -5321,10 +5321,10 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@^16.12.0:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
-  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+react@^16.13.1:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -5858,15 +5858,15 @@ single-spa-angular@^2.2.1:
   resolved "https://registry.yarnpkg.com/single-spa-angular/-/single-spa-angular-2.2.1.tgz#edf4c5cc377850e3a88677e3dce6ca41f8932425"
   integrity sha512-+k/uur/MYPdrZsknmehcIzWwtNiUYLiayYcvNJ7iwUREgfP4nqbHAriED1MkC7oyHZIyTlbAsTJZFUTkSTqUFQ==
 
-single-spa-react@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/single-spa-react/-/single-spa-react-2.9.0.tgz#f0314a15f9c64e159b0fd0e889f0bde9c7d3ac5e"
-  integrity sha512-ifHjaS2lgXrty8N3rxVvUG7uc7X++gcDztQ9Xdmr/yuz2/dXHCKGjGU459Ly9P6ja9wBG74cit6amEuVevN5tA==
+single-spa-react@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/single-spa-react/-/single-spa-react-2.14.0.tgz#4a55ea74a57db06adb41f0de3419a0c378745e1b"
+  integrity sha512-KQ2/y7/JBIquK0WUiwb1/Y7f4qTZITNotw+JwNPesj0WKeCi91u0LOZe2ps56QMJbyB4UrA5IzMBwbYWDr1pIw==
 
-single-spa@^3.8.1:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-3.9.1.tgz#82336b98dc121883d82760e1ae15380d575885b4"
-  integrity sha1-gjNrmNwSGIPYJ2DhrhU4DVdYhbQ=
+single-spa@^5.3.4:
+  version "5.9.3"
+  resolved "https://registry.yarnpkg.com/single-spa/-/single-spa-5.9.3.tgz#2d151cbb3b273629a5b27b30a3b8ca847dcba4c5"
+  integrity sha512-qMGraRzIBsodV6569Fob4cQ4/yQNrcZ5Achh3SAQDljmqUtjAZ7BAA7GAyO/l5eizb7GtTmVq9Di7ORyKw82CQ==
 
 sisteransi@^1.0.4:
   version "1.0.5"
@@ -6442,6 +6442,11 @@ tslib@^1.9.0:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.3.tgz#d7e4dd79245d85428c4d7e4822a79917954ca286"
   integrity sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+
+tslib@^2.0.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
+  integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
 tty-browserify@0.0.0:
   version "0.0.0"
